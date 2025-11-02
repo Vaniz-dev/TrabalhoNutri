@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+CA:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Story+Script&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.imgif{
+    width: 8cap;
+    height: 9cap;
+    padding: 1cap;
+
+}
+
+header{
+    display: flex;
+    background: linear-gradient(90deg,rgba(205, 255, 216, 1) 0%, rgba(148, 185, 255, 1) 100%);
+    padding: 1cap;
+    border-bottom: 1cap solid #329f41;
+    border-top: 1cap solid #329f41;
+    gap: 9cap;
+    align-items: center;
+    justify-content: center;
+}
+
+.n2b{
+    font-size: 8cap;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    color: #329f41;
+    font-style: normal;
+
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url('fundo1.png');
+    background-size: 100%;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-size: 10cap;
+    font-style: normal;
+    padding-top: 0.6cap;
+    color: white;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-size: 8cap;
+    font-style: normal;
+    color: white;   
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    gap: 2cap;
+    padding-bottom: 7cap;
+}
+
+.desafio{
+    color: #329f41;
+}
+
+.comeco{
+    padding: 2cap;
+    padding-left: 15cap;
+    border-radius: 80cap;
+    padding-right: 15cap;
+    background-color: #329f41;
+}
+
+.comeco a{
+    font-size: 7cap;
+    font-weight: 700;
+    color: white;
+}
+
+.creditos{
+    padding: 2cap;
+    margin-top: 2cap;
+    padding-left: 10cap;
+    border-radius: 80cap;
+    padding-right: 10cap;
+    background-color: #329f41;
+}
+
+.creditos a{
+    font-size: 3cap;
+    font-weight: 700;
+    color: white;
+}
